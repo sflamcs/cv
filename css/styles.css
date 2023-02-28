@@ -1,6 +1,12 @@
 body {
     background-color: #EEEEEE;
 }
+h1 {
+  color: #3E54AC;
+}
+h2 {
+  color: #AD7BE9;
+}
 hr{
     background-color: white;
     border-style: dotted none none none;
@@ -8,10 +14,4 @@ hr{
     border-width: 7px;
     height: 0px;
     width: 100%;
-}
-h1 {
-  color: #3E54AC;
-}
-h2 {
-  color: #AD7BE9;
 }
