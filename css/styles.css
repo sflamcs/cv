@@ -1,3 +1,4 @@
+/***** tag section *****/
 body {
     background-color: #EEEEEE;
 }
@@ -15,3 +16,9 @@ hr{
     height: 0px;
     width: 100%;
 }
+
+/***** class section *****/
+.hobbies{
+    color: #3E54AC;
+}
+
