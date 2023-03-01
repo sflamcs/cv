@@ -31,5 +31,5 @@ img:hover{
     color: #3E54AC;
 }
 #suki-button{
-    border-radius: 100%;
+    border-radius: 50px 50px 50px 50px;
 }
