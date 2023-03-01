@@ -16,6 +16,10 @@ hr{
     height: 0px;
     width: 100%;
 }
+img:hover{
+    background-color: blue;
+}
+
 
 /***** class section *****/
 .hobbies{
