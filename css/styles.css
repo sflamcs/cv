@@ -30,10 +30,13 @@ table{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, sans-serif;
 }
 
+
+
 hr{
     border: dotted #EAF6F6 6px;
     border-bottom: none;
     width: 40%;
+    margin: auto;
 }
 
 a{
@@ -51,6 +54,12 @@ a:hover{
     text-align:center;
     width: 50%;
 }
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .top-container {
     background-color: #CFF5E7;
     position: relative;
@@ -62,18 +71,29 @@ a:hover{
     padding-top: 80px;
 }
 
-.bottom-container {
+.project-container {
+    background-color: #CFF5E7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.contact-container {
     background-color: #59C1BD;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.bottom-container {
+    background-color: #0D4C92;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .skills {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .skill-row {
-    width: 50%;
     margin: 50px auto 0px auto;
 }
 
@@ -84,13 +104,13 @@ a:hover{
 .top-cloud{
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 80px;
 }
 
 .bottom-cloud{
     position: absolute;
     left: 200px;
-    bottom: 800px;
+    top: 100px;
 }
 
 .suki-img{
@@ -98,17 +118,18 @@ a:hover{
 }
 
 .computer-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+    width: 140px;
+    margin: auto;
 }
 
 .digital-img{
-    width: 25%;
-    float: left;
-    margin-right: 30px;
+    width: 140px;
+    margin: auto;
 }
 
+.project-img{
+    width: 80%;
+}
 .contact-me{
     padding-top: 20px;
     padding-bottom: 80px;
@@ -125,6 +146,7 @@ a:hover{
     padding: 20px 0px;
 }
 
+/*
 .btn {
     background: #059fff;
     background-image: -webkit-linear-gradient(top, #059fff, #00ed82);
@@ -151,3 +173,4 @@ a:hover{
     background-image: linear-gradient(to bottom, #08c935, #0099ff);
     text-decoration: none;
   }
+  */
